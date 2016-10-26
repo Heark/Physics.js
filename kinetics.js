@@ -1,8 +1,8 @@
 Object.prototype.squared = function() {
- if( typeof this === int ) {
+ if( typeof this === 'number' ) {
   return this * this;
  } else {
- throw new Error("Only integers may be squared");
+ throw new Error("Only number may be squared");
  }
  
 }
